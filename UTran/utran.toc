@@ -1,0 +1,7 @@
+## Interface: 4211
+## Title: UniversalTranslator v1.7.3
+## Notes: Allows the user to read/translate Morse Code, Babel, Leet and International special languages.  Cosmos is used for GUI only and is entirely optional, but we feel it's a lot easier to use.
+## Author: Jack Colorado, AnduinLothar, miscman, Brachan
+## OptionalDeps: Cosmos
+## Dependencies: 
+utran.xml
