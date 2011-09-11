@@ -1,0 +1,31 @@
+<!--
+Universal Translator v1.7.3
+
+Authors:
+	miscman	- miscman@canofsleep.com		(morse)
+	Jack Colorado - lord_raphio@yahoo.com   (babel)
+	AnduinLothar - karlkfi@yahoo.com		(leet)
+	Brachan - eichner_martin@yahoo.com		(international)
+
+This mod is released as is, use at your own risk. For free public use.
+
+If you use our work, give credit where credit is due. Also, contact us
+to let us know how we might have helped you!
+
+-->
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
+C:\Projects\WoW\Bin\Interface\FrameXML\UI.xsd">
+	<Script file="utran.lua"/>
+    <Frame name="UTFrame">
+        <Scripts>
+            <OnLoad>
+                this:RegisterEvent("VARIABLES_LOADED");
+            </OnLoad>
+            <OnEvent>
+            	if (event == "VARIABLES_LOADED") then
+                	UTinit();
+                end
+            </OnEvent>
+        </Scripts>
+    </Frame>
+</Ui>
