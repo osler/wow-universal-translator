@@ -1,0 +1,3 @@
+Back in... wow, when was this?  2005?  I had thought of a clever hack to allow for cross-faction communication.  I wrote it, released it, found some other people who wanted to contribute new "languages" to the project and it ended up becoming the Universal Translator: the first WoW plugin using only Lua and their API to be banned from use.
+
+They've long since removed the exploitable elements that allowed this to work, and I've long since stopped playing WoW: but I figured I might as well put this out there in case anyone wanted to see the source for this old plugin.
